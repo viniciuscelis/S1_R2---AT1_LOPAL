@@ -4,9 +4,9 @@
         <attribute name="name" value="S1_R2 - AT1_LOPAL - exerc&#237;cio 4"/>
         <attribute name="authors" value="I1D35"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-03-17 02:44:55 "/>
+        <attribute name="saved" value="2026-03-17 03:49:39 "/>
         <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjE5OzIwMjYtMDMtMTc7IjAyOjM4OjA1ICI7MjM2Mg=="/>
-        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjE5OzIwMjYtMDMtMTc7IjAyOjQ0OjU1ICI7MTsyNDcy"/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjE5OzIwMjYtMDMtMTc7IjAzOjQ5OjM5ICI7MjsyNDgx"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -24,14 +24,7 @@
                             <output expression="&quot;seu n&#250;mero &#233; positivo&quot;" newline="True"/>
                         </then>
                         <else>
-                            <if expression="numero &lt; 0">
-                                <then>
-                                    <output expression="&quot;seu n&#250;mero &#233; negativo&quot;" newline="True"/>
-                                </then>
-                                <else>
-                                    <output expression="&quot;n&#227;o sei que n&#250;mero &#233; esse&quot;" newline="True"/>
-                                </else>
-                            </if>
+                            <output expression="&quot;seu n&#250;mero &#233; negativo&quot;" newline="True"/>
                         </else>
                     </if>
                 </else>
