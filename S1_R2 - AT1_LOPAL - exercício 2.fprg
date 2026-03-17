@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="S1_R2 - AT1_LOPAL - exerc&#237;cio 2"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 02:25:18 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjE5OzIwMjYtMDMtMTc7IjAyOjIwOjAzICI7MjM1MQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjE5OzIwMjYtMDMtMTc7IjAyOjI1OjE4ICI7MTsyNDcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual o primeiro n&#250;mero que voc&#234; quer somar?&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <declare name="numero2" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual o segundo n&#250;mero que voc&#234; quer somar?&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="numero1 + numero2"/>
+            <output expression="&quot;o resultado &#233;: &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
